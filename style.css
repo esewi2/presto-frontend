@@ -1,3 +1,5 @@
+
+
 *{
    font-family: "Lato", sans-serif;
 }
@@ -148,4 +150,40 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+
+/* accordion */
+
+.accordion-item, .accordion-button{
+    background-color: var(--black);
+    color: var(--yellows);
+}
+
+.accordion-button:not(.collapsed){
+    color: var(--red);
+    background-color: var(--black);
+    box-shadow: none;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+.card-custom{
+    
+    width: 30%;
+    border: 2px solid var(--yellow);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.img-card{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
